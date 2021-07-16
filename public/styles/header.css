@@ -1,0 +1,24 @@
+header {
+  height: 450px;
+  background: black;
+}
+.header__image {
+  position: relative;
+}
+
+.header__image img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header__image h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.637);
+  font-size: 50px;
+}

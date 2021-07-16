@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/searchbar.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -14,24 +16,66 @@
   </head>
   <body>
     <!--header-->
+
+    <nav>
+      <div class="nav__title">
+        <h1>AGENT.</h1>
+      </div>
+      <div class="nav__items">
+        <ul>
+          <a href="#">Product Type</a>
+          <a href="#">Project</a>
+          <a href="#">News</a>
+          <a href="#">Promotion</a>
+        </ul>
+      </div>
+      <div class="nav__button">
+        <a href="#">POSTING</a>
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
     <header>
-      <nav>
-        <div class="nav__title">
-          <h1>AGENT.</h1>
+      <div class="header__image">
+        <img
+          src="/images/marc-olivier-jodoin--HIiNFXcbtQ-unsplash.jpg"
+          alt="Building"
+        />
+        <h2>
+          CHOOSE A HOME <br />
+          FOR YOU
+        </h2>
+        <div class="search__bar">
+          <div class="bar__top">
+            <h3>Search For Your Home</h3>
+          </div>
+          <div class="bar__bottom">
+            <div class="bar__content">
+              <label> Location </label>
+              <a href="#">Location of interest</a>
+            </div>
+            <div class="bar__content">
+              <label> Real estate form </label>
+              <a href="#">All forms</a>
+            </div>
+            <div class="bar__content">
+              <label> Real estate type </label>
+              <a href="#">All type</a>
+            </div>
+            <div class="bar__content">
+              <label> Price range </label>
+              <a href="#">Unlimited</a>
+            </div>
+            <div class="bar__content">
+              <label> Direction </label>
+              <a href="#">All direction</a>
+            </div>
+            <div class="bar__search bar__content">
+              <a href=""><i class="fas fa-search"></i>SEARCH</a>
+            </div>
+          </div>
         </div>
-        <div class="nav__items">
-          <ul>
-            <a href="#">Product Type</a>
-            <a href="#">Project</a>
-            <a href="#">News</a>
-            <a href="#">Promotion</a>
-          </ul>
-        </div>
-        <div class="nav__button">
-          <a href="#">POSTING</a>
-          <i class="fas fa-bars"></i>
-        </div>
-      </nav>
+      </div>
     </header>
   </body>
 </html>

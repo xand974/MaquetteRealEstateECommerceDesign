@@ -1,12 +1,11 @@
-header {
-  width: 80%;
-  margin: 20px auto;
-}
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+
+  width: 80%;
+  margin: 20px auto;
 }
 
 .nav__title {
