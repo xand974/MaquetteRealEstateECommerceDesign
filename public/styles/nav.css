@@ -31,3 +31,7 @@ nav {
 .fas {
   color: rgb(71, 71, 71);
 }
+
+.nav__button i {
+  cursor: pointer;
+}
