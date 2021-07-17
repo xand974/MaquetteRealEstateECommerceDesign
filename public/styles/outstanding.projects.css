@@ -1,0 +1,84 @@
+#oustanding__project {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.projects__link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.projects__link p {
+  color: gray;
+  font-size: 14px;
+}
+
+.projects__link a,
+.projects__link i {
+  font-weight: 600;
+  color: black;
+}
+
+.projects__link i {
+  margin-left: 6px;
+}
+
+.project__cards {
+  display: flex;
+  margin-top: 20px;
+  overflow: scroll;
+}
+
+.project__card {
+  width: 300px;
+  height: 330px;
+  margin: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.479);
+  border-radius: 10px;
+}
+
+.project__card img {
+  height: 200px;
+  object-fit: cover;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card__header {
+  background: blueviolet;
+  height: 200px;
+  position: relative;
+}
+
+.card__header p {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.815);
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.card__body {
+  padding: 10px;
+}
+
+.card__body * {
+  margin: 10px 0;
+}
+.card__body h5 {
+  color: rgb(16, 16, 65);
+  font-size: 18px;
+}
+
+.card__body p {
+  font-size: 12px;
+  color: gray;
+}
+
+.card__body strong {
+  color: rgb(100, 100, 100);
+}

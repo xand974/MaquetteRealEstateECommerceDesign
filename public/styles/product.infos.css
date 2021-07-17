@@ -1,6 +1,6 @@
 #product__infos {
   width: 80%;
-  margin: 150px auto;
+  margin: 150px auto 50px auto;
 }
 
 .cards {
@@ -28,6 +28,8 @@
   background: black;
   padding: 10px;
   float: left;
+  width: 50px;
+  text-align: center;
 }
 
 .card > p {
